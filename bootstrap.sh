@@ -7,3 +7,4 @@
 /bin/aws s3api get-object --bucket cs4740-csl4wd-private --key bundle.zip bundle.zip
 /bin/unzip bundle.zip -d /etc/httpd/conf/httpd.conf
 /etc/init.d/httpd start
+/sbin/reboot
